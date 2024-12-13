@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: radial-gradient(white, lightgreen, green);
+    height: 100%;
+    width: 100vw;
+    padding: 3px;
+}
+
+.skill-set-container {
+    padding: 40px;
+    background-image: linear-gradient(to bottom, lightgreen, white);
+}
+
+.skills-cards-container {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin-left: 8px;
+    margin-bottom: 14px;
+    overflow-y: auto;
+    color: MidnightBlue;
+}
+
+.skills-cards-container:hover {
+    background-color: #99FFFF
+
+}
+
+.navbar {
+    background-color: white;
+    margin-right: 50px;
+    font-size: 17px;
+}
+
+.nav-item {
+    margin-right: 50px;
+    font-size: 17px;
+}
+
+.nav-item:hover {
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+
+.profile-pic {
+    height: 300px;
+    width: 280px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.marquee-styles {
+    background-image: linear-gradient(to bottom, white, green);
+    color: MediumVioletRed;
+    font-family: 'Lobster';
+    font-size: 36px;
+    height: 48px;
+}
+
+.introduction-container {
+    background-color: AliceBlue;
+
+}
+
+.name-heading-in-bio {
+    color: BlueViolet;
+    font-family: 'Bree serif';
+    font-size: 20px;
+}
+
+.my-profile-pic {
+    height: 200px;
+    width: 180px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.gradient-background-image {
+    background-image: linear-gradient(to right, violet, lightgreen, lightyellow, DeepSkyBlue);
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;
+
+
+}
+
+.skill-heading {
+    color: green;
+    font-family: "bree serif";
+    font-weight: 200;
+    text-align: center;
+    font-size: 25px;
+}
+
+.ordered-list_styles {
+    list-style-type: circle;
+
+}
+
+.course-work-container {
+    background-image: radial-gradient(white, lightgreen);
+
+    padding: 15px;
+}
+
+.projects-bg-container {
+    background-image: radial-gradient(white, lightgreen);
+}
+
+progress {
+    width: 320px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: lightyellow;
+    overflow: hidden;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+progress::-webkit-progress-bar {
+    background-color: lightyellow;
+
+    border-radius: 8px;
+}
+
+progress::-webkit-progress-value {
+    background-color: BlueViolet;
+    border-radius: 8px;
+}
+
+progress::-moz-progress-bar {
+    background-color: BlueViolet
+}
+
+.progress-alignments {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: dodgerblue;
+
+}
+
+.course-title {
+    font-size: 20px;
+}
